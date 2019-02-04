@@ -1,26 +1,37 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 5px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: flex-start;
 }
 
 .left-nav > ul > li {
+font-family: serif;
+font-size: 1em;
+text-transform: uppercase;
 
 }
 
-.right-nav > ul > li {
-
+.right-nav > ul > li > span{
+ 
 }
 
 .right-nav > ul > li:last-of-type {
 
 }
 
-.left-nav > ul > li:hover,
+.left-nav > ul > li:hover{
+  // background-color:red;
+}
 .right-nav > ul > li:last-of-type:hover {
+// color: red;
+
 
 }
 

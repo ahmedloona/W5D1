@@ -28,14 +28,24 @@ button {
 }
 
 button:hover {
-	// background-color:
+	// background-color: 
 	// border-color:
 }
-
+#sections-sidebar-btn, #search-modal-btn{
+	
+	// background-color: $light-gray;
+	margin-right: 10px;
+}
+#sections-sidebar-btn:hover, #search-modal-btn:hover {
+	
+	background-color: $light-gray;
+}
 /*
 	Header Rules
 */
-
+#gear {
+font-size: 50px;
+}
 hr {
 	border: 0;
 	height: 1px;
