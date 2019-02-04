@@ -1,0 +1,185 @@
+Started GET "/" for ::1 at 2019-02-04 11:18:42 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.1/lib/active_record/railtie.rb:113)
+
+Gem::LoadError - can't activate sqlite3 (~> 1.3.6), already activated sqlite3-1.4.0. Make sure all dependencies are added to Gemfile.:
+
+Started POST "/__better_errors/108620c040eaa252/variables" for ::1 at 2019-02-04 11:18:42 -0800
+Started GET "/" for ::1 at 2019-02-04 11:19:57 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.1/lib/active_record/railtie.rb:113)
+
+Gem::LoadError - can't activate sqlite3 (~> 1.3.6), already activated sqlite3-1.4.0. Make sure all dependencies are added to Gemfile.:
+
+Started POST "/__better_errors/59ed1b799b094879/variables" for ::1 at 2019-02-04 11:19:58 -0800
+Started GET "/" for ::1 at 2019-02-04 11:20:00 -0800
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with id primary found.:
+
+Started POST "/__better_errors/e1621be764220edc/variables" for ::1 at 2019-02-04 11:20:00 -0800
+Started GET "/" for ::1 at 2019-02-04 11:40:08 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.1/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (1.0ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (21.1ms)
+Completed 500 Internal Server Error in 479ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  font: ": expected expression (e.g. 1px, bold), was ";":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3492405796373042657_70334003349820'
+
+Started GET "/" for ::1 at 2019-02-04 11:40:11 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.9ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  font: ": expected expression (e.g. 1px, bold), was ";":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3492405796373042657_70334045533920'
+
+Started POST "/__better_errors/86f33718dae9115b/variables" for ::1 at 2019-02-04 11:40:13 -0800
+Started GET "/" for ::1 at 2019-02-04 11:40:31 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.9ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  font: ": expected expression (e.g. 1px, bold), was ";":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3492405796373042657_70334004727520'
+
+Started POST "/__better_errors/9c8b48a30c51c26c/variables" for ::1 at 2019-02-04 11:40:34 -0800
+Started GET "/" for ::1 at 2019-02-04 11:42:13 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 523ms (Views: 507.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8eafd2ab080f12afcecef3f4b8bb5f1e0138dec40bce285122ff364533b3bd9e.css?body=1" for ::1 at 2019-02-04 11:42:16 -0800
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-02-04 11:42:16 -0800
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2019-02-04 11:42:16 -0800
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2019-02-04 11:42:16 -0800
+Started GET "/assets/components/dropdown.self-815016af6fab1d5b72abd319213bf62f0c42bab2c585d2e059543ae704a0d74c.js?body=1" for ::1 at 2019-02-04 11:42:16 -0800
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2019-02-04 11:42:16 -0800
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2019-02-04 11:42:16 -0800
+Started GET "/" for ::1 at 2019-02-04 11:43:14 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 212ms (Views: 195.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8279b0cc8612a325c1283216642df5fbc0d74d87942b43fca0d851326ed31a24.css?body=1" for ::1 at 2019-02-04 11:43:16 -0800
+Started GET "/" for ::1 at 2019-02-04 11:44:53 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 234ms (Views: 217.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2c681a739b51bacecbd460cdbe853a0bef035b5b6ac40785607fccf41f1253c9.css?body=1" for ::1 at 2019-02-04 11:44:56 -0800
+Started GET "/" for ::1 at 2019-02-04 11:49:04 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.1/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.8ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.9ms)
+Completed 500 Internal Server Error in 419ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "  list-style:": expected expression (e.g. 1px, bold), was "}":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3899377884856489006_70252017279920'
+
+Started POST "/__better_errors/61b63bff38ee6bb8/variables" for ::1 at 2019-02-04 11:49:07 -0800
+Started GET "/" for ::1 at 2019-02-04 11:49:12 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 382ms (Views: 379.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b658c1c11a32ed6602d641bb5e080c1963c59b448e0b52e1ae87096368e08bd1.css?body=1" for ::1 at 2019-02-04 11:49:14 -0800
+Started GET "/" for ::1 at 2019-02-04 11:51:53 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.8ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 242ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-20fed1d6fe3b17f12326c8be7f14a40d6571676c9dbde85706491e24ce3dcf4b.css?body=1" for ::1 at 2019-02-04 11:51:55 -0800
+Started GET "/" for ::1 at 2019-02-04 11:57:02 -0800
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.1/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (2.0ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (1.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 977ms (Views: 959.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1" for ::1 at 2019-02-04 11:57:04 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310237343" for ::1 at 2019-02-04 11:57:17 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310237345" for ::1 at 2019-02-04 11:57:17 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310347210" for ::1 at 2019-02-04 11:59:07 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310347212" for ::1 at 2019-02-04 11:59:07 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310380115" for ::1 at 2019-02-04 11:59:40 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310380116" for ::1 at 2019-02-04 11:59:40 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310395056" for ::1 at 2019-02-04 11:59:55 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310395057" for ::1 at 2019-02-04 11:59:55 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310464673" for ::1 at 2019-02-04 12:01:04 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310464673&livereload=1549310464673" for ::1 at 2019-02-04 12:01:04 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310617150&livereload=1549310464673" for ::1 at 2019-02-04 12:03:37 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549310617151&livereload=1549310464673" for ::1 at 2019-02-04 12:03:37 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549311341625&livereload=1549310464673" for ::1 at 2019-02-04 12:15:41 -0800
+Started GET "/assets/application.self-8e65e495de899c458ca108296f4977d378e997408159f421aaf6302d7b9194c6.css?body=1&livereload=1549311341634&livereload=1549310464673" for ::1 at 2019-02-04 12:15:41 -0800
